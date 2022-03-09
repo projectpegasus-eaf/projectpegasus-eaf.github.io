@@ -138,9 +138,9 @@ li {
 	margin-top: 3vw;
 	padding-top: 2.85em;
 	padding-bottom: 0.5vw;
-	font-size: 1.5vw;
+	font-size: 2.5vw;
 	font-style: bold;
-	color: rgb(0, 0, 0);
+	color: rgb(43 , 157, 203);
 	text-align: center;
 	font-family: agrandir;
 	font-weight: normal;
@@ -148,7 +148,7 @@ li {
 
 #menu
 {
-	color: rgb(0, 0, 0);
+	color: rgb(185, 88, 36);
 	text-align: center;
 	margin-bottom: 1.25em;
 	margin-top: 0.7527777777777778vw
@@ -159,7 +159,7 @@ li {
 #DA
 {
 	font-family: agrandir;
-	font-size: 0.89vw;
+	font-size: 1.1vw;
 	padding-bottom: 1.875em;
 	margin-bottom: 2vw;
 }
@@ -1569,10 +1569,10 @@ margin-right: 100px;
       .btn {
         width: 249px;
         height: 62px;
-        background: #ffffff40;
+        background: rgb(43, 157, 203);
         mix-blend-mode: normal;
         cursor: pointer;
-        border: 1px solid #8260d780;
+        border: 1px solid rgb(43, 157, 203);
         border-radius: 5px;
         text-decoration: none;
         display: flex;
@@ -1583,22 +1583,76 @@ margin-right: 100px;
         font-weight: bold;
         font-size: 14px;
         line-height: 19px;
-        color: #2b2862;
+        color: rgb(43, 157, 203);
 
         margin-left: 53px;
         transition: 0.3s;
-        background: #2b2862;
+        background: rgb(43, 157, 203);
         color: #fff;
-        border-color: #2b2862;
+        border-color: rgb(43, 157, 203);
       }
       .btn a {
           text-decoration: none;
           color: white;
       }
 
-      
-    
+    .backgroundimage {
+        background-image: url("main.png");
+        height: 100%;
+
+        /* Center and scale the image nicely */
+        background-repeat: no-repeat;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        padding: 0;
+        display: block;
+        margin: 0 auto;
+        max-height: 100%;
+        max-width: 100%;
+        
+
+    }
+    .mainimage
+    {
+        width: 99.9999999%;
+        height: 99.999999999%;
+        margin-top: -34em;
+        float: left;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        object-fit: fill;
+    }
+
+    .mainimage2
+    {
+        float: right;
+    }
+
+    #mainimage {
+        
+    }
     
   
 
 
+.main_game_explain {
+    padding-top: 2em;
+    position: absolute;
+    width: 60%;
+    margin-left: 100px;
+}
+
+.title_explain {
+    text-align: center;
+    font-family: agrandir;
+    font-size: 16px;
+}
+
+.text_explain {
+    padding-top: 2em;
+    text-align: center;
+    font-family: poppinsreg;
+    font-size: 14px;
+}
