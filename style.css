@@ -23,6 +23,8 @@
 .navigationbar {
     margin: 0;
     padding: 0;
+	z-index: 2;
+	position: relative;
 }
 
 #navigation-container {
@@ -78,7 +80,7 @@ li {
   .navbar a {
 	float: left;
 	text-align: center;
-	padding: 12px;
+	padding: 0.625vw;
 	color: white;
 	text-decoration: none;
 	font-size: 17px;
@@ -151,7 +153,7 @@ li {
 	color: rgb(185, 88, 36);
 	text-align: center;
 	margin-bottom: 1.25em;
-	margin-top: 0.7527777777777778vw
+	margin-top: 8.680555555555555vw
 }
 
 
@@ -1431,24 +1433,24 @@ grid-gap: 0;
 
 .maintimeline {
     position: relative;
-height: 20px;
+height: 1.0416666666666667vw;
 float: right;
-margin-right: 100px;
+margin-right: 5.208333333333333vw;
 }
 
 .cardTop {
-  width: 497px;
-  height: 284px;
+  width: 25.885416666666668vw;
+  height: 14.791666666666666vw ;
   background: rgb(43, 157, 203);
-  border-radius: 20px;
+  border-radius: 1.0416666666666667vw;
   display: flex;
   overflow: hidden;
   align-items: flex-end;
 }
 
 .timeline {
-  width: 355px;
-  height: 696px;
+  width: 18.489583333333332vw;
+  height: 36.25vw;
   background: #ecf1f524;
   mix-blend-mode: normal;
   backdrop-filter: blur(15px);
@@ -1456,20 +1458,20 @@ margin-right: 100px;
   overflow: hidden;
 
   position: absolute;
-  top: 144px;
-  margin-left: 71px;
-  box-shadow: 0px 20px 53px -30px rgba(95, 102, 173, 0.566816);
+  top: 7.5vw;
+  margin-left: 3.6979166666666665vw;
+  box-shadow: 0px 1.0416666666666667vw 2.7604166666666665vw -1.5625vw rgba(95, 102, 173, 0.566816);
   border-radius: 10px;
 }
   h3 {
     font-family: poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 1.1458333333333333vw;
+    line-height: 1.5625vw;
     color: #ffffff;
-    margin-left: 66px;
-    margin-top: 40px;
+    margin-left: 3.4375vw;
+    margin-top: 2.0833333333333335vw;
   }
 
   label {
@@ -1477,58 +1479,59 @@ margin-right: 100px;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 1.1458333333333333vw;
     /* identical to box height */
-    margin-left: 66px;
-    margin-top: 10px;
+    margin-left: 3.4375vw;
+    margin-top: 0.5208333333333334vw;
 
     color: #ffffff;
   }
 
   .box {
     width: 100%;
-    height: 509px;
+    height: 26.510416666666668vw;
     background: #fbfcfd;
-    margin-top: 99.5px;
+    margin-top: 5.182291666666667vw
+	;
   }
 
     .container {
       width: 100%;
-      height: 357px;
+      height: 18.59375vw;
       display: flex;
     }
       .lines {
-        margin-left: 40px;
-        margin-top: 6px;
+        margin-left: 2.0833333333333335vw;
+        margin-top: 0.3125vw;
       }
         .dot {
-          width: 14px;
-          height: 14px;
+          width: 0.7291666666666666vw;
+          height:  0.7291666666666666vw;
           background: #d1d6e6;
           border-radius: 7px;
         }
 
         .line {
-          height: 103px;
-          width: 2px;
+          height: 5.364583333333333vw;
+          width: 0.10416666666666667vw;
           background: #d1d6e6;
-          margin-left: 5.3px;
+          margin-left: 0.2760416666666667vw;
         }
       
       .cards {
-        margin-left: 12px;
-        transform: translateY(-50px);
+        margin-left: 0.625vw;
+        transform: translateY(-2.6041666666666665vw);
       }
         .card {
-          width: 249px;
-          height: 93px;
-          padding-top: 25px;
+          width: 12.96875vw;
+          height: 5.208333333333333vw;
+          padding-top: 1.3020833333333333vw;
           background: #ffffff;
-          box-shadow: 0 2px 2px 0 #eeeeee40;
+          box-shadow: 0 0.10416666666666667vw 0.10416666666666667vw 0 #eeeeee40;
           border-radius: 10px;
 
-          box-shadow: 0px 16px 15px -10px rgba(105, 96, 215, 0.0944602);
-          margin-bottom: 10px;
+          box-shadow: 0px 0.8333333333333334vw 0.78125vw -0.5208333333333334vw rgba(105, 96, 215, 0.0944602);
+          margin-bottom: 0.5208333333333334vw;
         }
           .mid {
             height: 71px;
@@ -1538,8 +1541,8 @@ margin-right: 100px;
             font-family: poppins;
             font-style: normal;
             font-weight: bold;
-            font-size: 14px;
-            line-height: 19px;
+            font-size:  0.7291666666666666vw;
+            line-height: 0.9895833333333334vw;
             margin-left: 25px;
             margin-bottom: 5px;
 
@@ -1551,7 +1554,7 @@ margin-right: 100px;
             font-style: normal;
             font-weight: normal;
             font-size: 14px;
-            line-height: 22px;
+            line-height: 1.1458333333333333vw;
 
             color: #2b2862;
             margin-left: 25px;
@@ -1562,13 +1565,13 @@ margin-right: 100px;
       width: 100%;
       height: 107px;
       background: #fff;
-      box-shadow: 0 0 2px #eeeeee50;
+      box-shadow: 0 0 0.10416666666666667vw #eeeeee50;
       padding-top: 45px;
     }
 
       .btn {
-        width: 249px;
-        height: 62px;
+        width: 12.96875vw;
+        height: 3.2291666666666665vw;
         background: rgb(43, 157, 203);
         mix-blend-mode: normal;
         cursor: pointer;
@@ -1582,7 +1585,7 @@ margin-right: 100px;
         font-style: normal;
         font-weight: bold;
         font-size: 14px;
-        line-height: 19px;
+        line-height: 0.9895833333333334vw;
         color: rgb(43, 157, 203);
 
         margin-left: 53px;
@@ -1591,7 +1594,33 @@ margin-right: 100px;
         color: #fff;
         border-color: rgb(43, 157, 203);
       }
-      .btn a {
+	  .btnsmall {
+		  margin-top: 0.625vw;
+        width: 125px;
+        height: 31px;
+        background: rgb(43, 157, 203);
+        mix-blend-mode: normal;
+        cursor: pointer;
+        border: 1px solid rgb(43, 157, 203);
+        border-radius: 5px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 0.625vw;
+        line-height: 0.9895833333333334vw;
+        color: rgb(43, 157, 203);
+
+        margin-left: 2.7604166666666665vw;
+        transition: 0.3s;
+        background: rgb(43, 157, 203);
+        color: #fff;
+        border-color: rgb(43, 157, 203);
+      }
+      .btn a, .btnsmall a {
           text-decoration: none;
           color: white;
       }
@@ -1599,7 +1628,7 @@ margin-right: 100px;
     .backgroundimage {
         background-image: url("main.png");
         height: 100%;
-
+		background-position: top;
         /* Center and scale the image nicely */
         background-repeat: no-repeat;
         height: 100%;
@@ -1613,16 +1642,19 @@ margin-right: 100px;
         
 
     }
+
+
+
     .mainimage
     {
-        width: 99.9999999%;
-        height: 99.999999999%;
-        margin-top: -34em;
-        float: left;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
-        object-fit: fill;
+		z-index: 1;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
     }
 
     .mainimage2
@@ -1638,10 +1670,10 @@ margin-right: 100px;
 
 
 .main_game_explain {
-    padding-top: 2em;
+    padding-top: 1.6666666666666667vw;
     position: absolute;
     width: 60%;
-    margin-left: 100px;
+    margin-left: 5.208333333333333vw;
 }
 
 .title_explain {
@@ -1651,11 +1683,11 @@ margin-right: 100px;
 }
 
 .text_explain {
-    padding-top: 2em;
+    padding-top: 1.6666666666666667vw;
     text-align: center;
     font-family: poppinsreg;
     font-size: 14px;
-    padding-bottom: 3em;
+    padding-bottom: 2.5vw;
 }
 
 
@@ -1674,7 +1706,7 @@ margin-right: 100px;
     content: '';
     position: absolute;
     width: 6px;
-    background-color: white;
+    background-color: black;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -1683,7 +1715,7 @@ margin-right: 100px;
   
   /* Container around content */
   .containerlarge {
-    padding: 10px 40px;
+    padding: 0.5208333333333334vw 2.0833333333333335vw;
     position: relative;
     background-color: inherit;
     width: 50%;
@@ -1696,7 +1728,7 @@ margin-right: 100px;
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: white;
+    background-color: black;
     border: 4px solid #FF9F55;
     top: 15px;
     border-radius: 50%;
@@ -1705,7 +1737,7 @@ margin-right: 100px;
   
   /* Place the container to the left */
   .left {
-    left: 0;
+    left:-80px;
   }
   
   /* Place the container to the right */
@@ -1718,13 +1750,13 @@ margin-right: 100px;
     content: " ";
     height: 0;
     position: absolute;
-    top: 22px;
+    top: 1.1458333333333333vw;
     width: 0;
     z-index: 1;
-    right: 30px;
-    border: medium solid white;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
+    right: 1.5625vw;
+    border: medium solid black;
+    border-width: 0.5208333333333334vw 0 0.5208333333333334vw 0.5208333333333334vw;
+    border-color: transparent transparent transparent black;
   }
   
   /* Add arrows to the right container (pointing left) */
@@ -1732,24 +1764,24 @@ margin-right: 100px;
     content: " ";
     height: 0;
     position: absolute;
-    top: 22px;
+    top: 1.1458333333333333vw;
     width: 0;
     z-index: 1;
-    left: 30px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    left: 1.5625vw;
+    border: medium solid black;
+    border-width: 0.5208333333333334vw 0.5208333333333334vw 0.5208333333333334vw 0;
+    border-color: transparent black transparent transparent;
   }
   
   /* Fix the circle for containers on the right side */
   .right::after {
-    left: -16px;
+    left: -0.8333333333333334vw;
   }
   
   /* The actual content */
   .contentlarge {
-    padding: 20px 30px;
-    background-color: white;
+    padding: 20px 1.5625vw;
+    background-color: black;
     position: relative;
     border-radius: 6px;
   }
@@ -1771,9 +1803,9 @@ margin-right: 100px;
   /* Make sure that all arrows are pointing leftwards */
     .containerlarge::before {
       left: 60px;
-      border: medium solid white;
-      border-width: 10px 10px 10px 0;
-      border-color: transparent white transparent transparent;
+      border: medium solid black;
+      border-width: 0.5208333333333334vw 0.5208333333333334vw 0.5208333333333334vw 0;
+      border-color: transparent black transparent transparent;
     }
   
   /* Make sure all circles are at the same spot */
