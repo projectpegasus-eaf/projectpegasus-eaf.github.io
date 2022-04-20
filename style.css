@@ -1670,7 +1670,7 @@ margin-top: -79vw;
 
 .main_game_explain {
     padding-top: 5.667vw;
-    position: absolute;
+    position: relative;
     width: 60%;
     margin-left: 5.208333333333333vw;
 }
@@ -1850,4 +1850,9 @@ margin-top: -79vw;
 	margin-left: 14vw;
 	margin-right: 14vw;
 	gap: 8vw;
+}
+
+.game_embeded {
+	position: relative;
+	margin-top: 2vw;
 }
